@@ -14,18 +14,18 @@ export const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md shadow-sm">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
-        <div className="flex flex-col items-start gap-0.5 mt-1">
-          <div className="flex items-center gap-4">
-            <img src="/logo.png" alt="Logo Cayan Passeios Tur" className="h-20 md:h-16 w-auto object-contain" />
-            <Link to="/" className="font-bold text-2xl tracking-tight text-brandBlue-900 hidden sm:block">
-              Cayan<span className="text-ctaOrange-500">PasseiosTur</span>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="Logo Cayan Passeios Tur" className="h-12 md:h-14 w-auto object-contain" />
+          <div className="flex flex-col">
+            <Link to="/" className="font-bold text-lg md:text-xl tracking-tight text-brandBlue-900">
+              Cayan<span className="text-ctaOrange-500">Passeios</span>
             </Link>
+            <a href="https://wa.me/5582999465558" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-xs font-semibold text-brandBlue-600 hover:text-ctaOrange-500 transition-colors">
+              <Phone className="w-3 h-3" />
+              (82) 99946-5558
+            </a>
           </div>
-          <a href="https://wa.me/5582999465558" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs md:text-base font-semibold text-brandBlue-600 hover:text-ctaOrange-500 transition-colors ml-1">
-            <Phone className="w-3.5 h-3.5 md:w-4.5 md:h-4.5" />
-            (82) 99946-5558
-          </a>
         </div>
 
         {/* Desktop Navigation */}
