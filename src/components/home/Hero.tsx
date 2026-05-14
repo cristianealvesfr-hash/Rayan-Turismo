@@ -43,7 +43,7 @@ export const Hero = () => {
   };
 
   return (
-    <div className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden flex items-center justify-center min-h-[85vh]">
+    <div className="relative pt-20 pb-10 md:pt-32 md:pb-20 lg:pt-48 lg:pb-32 overflow-hidden flex items-center justify-center min-h-[85vh]">
       {/* Background Image Slider & Overlay */}
       <div className="absolute inset-0 z-0 bg-brandBlue-900">
         {heroImages.map((src, index) => (
@@ -61,7 +61,7 @@ export const Hero = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col items-center">
         {/* Hero Content */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="text-center max-w-3xl mx-auto mb-6 md:mb-12">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white tracking-tight mb-6 drop-shadow-md leading-tight">
             Descubra o Paraíso na <br className="hidden md:block"/> Rota dos Milagres
           </h1>
@@ -71,7 +71,7 @@ export const Hero = () => {
         </div>
 
         {/* Search Floating Card */}
-        <div className="w-full max-w-4xl bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-4 md:p-6 mx-auto transform translate-y-8 md:translate-y-16">
+        <div className="w-full max-w-4xl bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-4 md:p-6 mx-auto transform translate-y-4 md:translate-y-16">
           <form onSubmit={handleSearch} className="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
             <div className="flex flex-col gap-2">
               <label className="text-sm font-semibold text-slate-700 flex items-center gap-2">
