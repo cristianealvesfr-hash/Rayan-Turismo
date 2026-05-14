@@ -22,8 +22,8 @@ export const Navbar = () => {
               Cayan<span className="text-ctaOrange-500">PasseiosTur</span>
             </Link>
           </div>
-          <a href="https://wa.me/5582999465558" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-sm md:text-base font-semibold text-brandBlue-600 hover:text-ctaOrange-500 transition-colors ml-1">
-            <Phone className="w-4 h-4 md:w-4.5 md:h-4.5" />
+          <a href="https://wa.me/5582999465558" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs md:text-base font-semibold text-brandBlue-600 hover:text-ctaOrange-500 transition-colors ml-1">
+            <Phone className="w-3.5 h-3.5 md:w-4.5 md:h-4.5" />
             (82) 99946-5558
           </a>
         </div>
