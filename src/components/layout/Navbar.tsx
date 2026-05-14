@@ -17,7 +17,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-20 md:h-24 flex items-center justify-between">
         <div className="flex flex-col items-start gap-0.5 mt-1">
           <div className="flex items-center gap-4">
-            <img src="/logo.png" alt="Logo Cayan Passeios Tur" className="h-14 md:h-16 w-auto object-contain" />
+            <img src="/logo.png" alt="Logo Cayan Passeios Tur" className="h-18 md:h-16 w-auto object-contain" />
             <Link to="/" className="font-bold text-2xl tracking-tight text-brandBlue-900 hidden sm:block">
               Cayan<span className="text-ctaOrange-500">PasseiosTur</span>
             </Link>
