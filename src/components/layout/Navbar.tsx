@@ -21,7 +21,7 @@ export const Navbar = () => {
             <Link to="/" className="font-bold text-lg md:text-xl tracking-tight text-brandBlue-900">
               Cayan<span className="text-ctaOrange-500">Passeios</span>
             </Link>
-            <a href="https://wa.me/5582999465558" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-xs font-semibold text-brandBlue-600 hover:text-ctaOrange-500 transition-colors">
+            <a href="https://wa.me/5582999465558" target="_blank" rel="noreferrer" className="hidden md:flex items-center gap-1 text-xs font-semibold text-brandBlue-600 hover:text-ctaOrange-500 transition-colors">
               <Phone className="w-3 h-3" />
               (82) 99946-5558
             </a>
