@@ -1,5 +1,3 @@
-import { Play } from 'lucide-react';
-
 interface VideoCardProps {
   coverUrl?: string;
   videoUrl: string;
