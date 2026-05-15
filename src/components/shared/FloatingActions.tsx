@@ -32,10 +32,10 @@ export const FloatingActions = () => {
 
       <button 
         onClick={handleWhatsApp}
-        className="h-16 w-16 rounded-full flex items-center justify-center shadow-lg shadow-green-500/30 transform transition-all duration-300 hover:scale-110 animate-bounce bg-[#25D366] text-white"
+        className="h-16 w-16 rounded-full flex items-center justify-center shadow-lg shadow-green-500/30 transform transition-all duration-300 hover:scale-110 animate-bounce overflow-hidden"
         style={{ animationDuration: '2s' }}
       >
-        <MessageCircle className="w-10 h-10 fill-white stroke-[#25D366]" />
+        <img src="/icon-whatsapp.jpg" alt="WhatsApp" className="w-full h-full object-cover" />
       </button>
     </div>
   );
