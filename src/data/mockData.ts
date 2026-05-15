@@ -16,7 +16,7 @@ export interface Experience {
 
 export const experiencesData: Experience[] = [
   {
-    id: "jangada-piscinas-naturais",
+    id: "jangada_piscinas_naturais",
     title: "Passeio de Jangada nas Piscinas Naturais",
     location: "Praia do Patacho, Porto de Pedras - AL",
     duration: "2h30 a 3 horas",
@@ -38,7 +38,7 @@ export const experiencesData: Experience[] = [
     galleryImage: "/galeria-jangada.png"
   },
   {
-    id: "jangada-gastronomica",
+    id: "jangada_gastronomica",
     title: "Passeio de Jangada Gastronômico",
     location: "Rota Ecológica dos Milagres - AL",
     duration: "4 horas",
@@ -59,7 +59,7 @@ export const experiencesData: Experience[] = [
     galleryImage: "/galeria-jangada-gastronomica.png"
   },
   {
-    id: "ensaio-fotografico",
+    id: "ensaio_fotografico",
     title: "Ensaio fotográfico drone e subaquáticas",
     location: "Praia do Patacho / Piscinas Naturais",
     duration: "2 horas",
@@ -78,7 +78,7 @@ export const experiencesData: Experience[] = [
     galleryImage: "/galeria-ensaio-fotografico.png"
   },
   {
-    id: "passeio-buggy",
+    id: "passeio_buggy",
     title: "Passeio de Buggy - Rota Sul ou Rota Norte",
     location: "Porto de Pedras / São Miguel dos Milagres",
     duration: "2 horas",
@@ -97,14 +97,14 @@ export const experiencesData: Experience[] = [
     galleryImage: "/galeria-passeio-buggy.png"
   },
   {
-    id: "passeio-quadriciclo",
+    id: "passeio_quadriciclo",
     title: "Passeio de Quadriciclo",
     location: "Trilhas de Porto de Pedras",
     duration: "A consultar",
     price: 200,
     image: "/passseio-de-quadriciclos.jpg",
     category: "Passeio",
-    description: "Prepare-se para uma aventura cheia de adrenalina pelas paisagens mais incríveis da região! No passeio de quadriciclo, você mesmo pilota e explora rotas recheadas de emoção e belezas naturais. Escolha entre a rota sul, com saída do centro de Milagres, ou a rota norte, partindo do Patacho. Cada quadriciclo comporta até duas pessoas.",
+    description: "Prepare-se para uma aventura cheia de adrenalina pelas paisagens mais incríveis da região! No passeio de quadriciclo, você mesmo pilota e explora rotas recheadas de emoção e belevas naturais. Escolha entre a rota sul, com saída do centro de Milagres, ou a rota norte, partindo do Patacho. Cada quadriciclo comporta até duas pessoas.",
     includesTitle: "OPÇÕES DE ROTA:",
     includes: [
       "ROTA SUL: CENTRO DE MILAGRES",
@@ -116,7 +116,7 @@ export const experiencesData: Experience[] = [
     galleryImage: "/galeria-passeio-quadriciclo.png"
   },
   {
-    id: "lancha-maragogi",
+    id: "lancha_maragogi",
     title: "Passeio de Lancha em Maragogi",
     location: "Maragogi - AL",
     duration: "2 horas",
@@ -135,7 +135,7 @@ export const experiencesData: Experience[] = [
     galleryImage: "/galeria-lancha-maragogi.png"
   },
   {
-    id: "transfer-privativo",
+    id: "transfer_privativo",
     title: "Transfer Privativo",
     location: "Aeroportos e Pousadas",
     duration: "Flexível",
@@ -152,7 +152,7 @@ export const experiencesData: Experience[] = [
     itinerary: []
   },
   {
-    id: "passeio-cavalo",
+    id: "passeio_cavalo",
     title: "Passeio a Cavalo em Milagres",
     location: "Praias da Rota dos Milagres",
     duration: "1 hora",

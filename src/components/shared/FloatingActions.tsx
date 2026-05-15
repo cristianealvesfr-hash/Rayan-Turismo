@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Instagram, MessageCircle } from 'lucide-react';
 
 export const FloatingActions = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,9 +24,9 @@ export const FloatingActions = () => {
         href="https://www.instagram.com/cayan_passeiostur/" 
         target="_blank" 
         rel="noreferrer"
-        className="h-14 w-14 rounded-full flex items-center justify-center shadow-lg shadow-pink-500/30 transform transition-all duration-300 hover:scale-110 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white"
+        className="h-14 w-14 rounded-full flex items-center justify-center shadow-lg shadow-pink-500/30 transform transition-all duration-300 hover:scale-110 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white overflow-hidden"
       >
-        <Instagram className="w-8 h-8" />
+        <img src="/icon-instagram.png" alt="Instagram" className="w-full h-full object-cover p-3" />
       </a>
 
       <button 
