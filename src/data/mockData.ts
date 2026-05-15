@@ -12,6 +12,7 @@ export interface Experience {
   itinerary: { time: string; activity: string }[];
   category: "Passeio" | "Ensaio" | "Transfer" | "Gastronomia";
   galleryImage?: string;
+  galleryImages?: string[];
 }
 
 export const experiencesData: Experience[] = [
@@ -56,7 +57,12 @@ export const experiencesData: Experience[] = [
       "AGENDAMENTO: NECESSÁRIO RESERVAR COM ANTECEDÊNCIA"
     ],
     itinerary: [],
-    galleryImage: "/galeria-jangada-gastronomica.png"
+    galleryImage: "/galeria-jangada-gastronomica.png",
+    galleryImages: [
+      "/passeio-de-jangada-gastronomico.jpg",
+      "/jangada-gastronomica-galeria-2.jpg",
+      "/jangada-gastronomica-galeria-3.jpg"
+    ]
   },
   {
     id: "ensaio-fotografico",
