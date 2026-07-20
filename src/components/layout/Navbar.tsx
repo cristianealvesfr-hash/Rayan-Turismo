@@ -42,6 +42,9 @@ export const Navbar = () => {
           <Link to="/sobre" className="text-sm font-medium text-slate-600 hover:text-brandBlue-600 transition-colors">
             Sobre Nós
           </Link>
+          <Link to="/passeios-em-patacho" className="text-sm font-medium text-ctaOrange-500 hover:text-ctaOrange-600 transition-colors">
+            O Patacho
+          </Link>
           <Button onClick={handleWhatsApp} className="bg-[#25D366] hover:bg-[#1ebd5c] text-white shadow-md shadow-green-200/50 rounded-full px-6">
             Contato via WhatsApp
           </Button>
@@ -71,6 +74,9 @@ export const Navbar = () => {
             </Link>
             <Link to="/sobre" className="text-base font-medium text-slate-600" onClick={() => setIsOpen(false)}>
               Sobre Nós
+            </Link>
+            <Link to="/passeios-em-patacho" className="text-base font-medium text-ctaOrange-500" onClick={() => setIsOpen(false)}>
+              O Patacho
             </Link>
             <Button onClick={handleWhatsApp} className="w-full bg-[#25D366] hover:bg-[#1ebd5c] text-white rounded-full mt-4">
               Contato via WhatsApp
