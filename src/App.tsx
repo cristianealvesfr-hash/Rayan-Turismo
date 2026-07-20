@@ -19,6 +19,7 @@ function App() {
           <Route path="/privacidade" element={<PrivacyPolicy />} />
           <Route path="/passeios-em-patacho" element={<PasseiosPatacho />} />
           <Route path="/passeio/:id" element={<ExperienceDetail />} />
+          <Route path="*" element={<Home />} />
         </Routes>
         <FloatingActions />
         <LgpdBanner />
