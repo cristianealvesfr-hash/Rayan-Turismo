@@ -12,6 +12,7 @@ export interface Experience {
   itinerary: { time: string; activity: string }[];
   category: "Passeio" | "Ensaio" | "Transfer" | "Gastronomia";
   galleryImage?: string;
+  galleryImages?: string[];
 }
 
 export const experiencesData: Experience[] = [
@@ -21,7 +22,7 @@ export const experiencesData: Experience[] = [
     location: "Praia do Patacho, Porto de Pedras - AL",
     duration: "2h30 a 3 horas",
     price: 100,
-    image: "/capa-piscinas-naturais.jpg",
+    image: "/jangada-nova-aerea.jpg",
     tag: "Mais Vendido",
     category: "Passeio",
     description: "Prepare-se para uma experiência única nas águas cristalinas da Praia do Patacho, um paraíso na Rota Ecológica dos Milagres. O passeio de jangada dura de 2h30 a 3h e inclui paradas incríveis: mergulho nas piscinas naturais, pulo divertido da nossa jangada de dois andares e momentos de relax nas redes e bóias na parte rasa do mar. Um roteiro perfeito para quem busca beleza, tranquilidade e diversão em um só lugar. A saída é diária, mas acontece apenas uma vez por dia — conforme a maré — e o agendamento é necessário.",
@@ -35,7 +36,8 @@ export const experiencesData: Experience[] = [
       "EMBARQUE NO PONTO DE APOIO À BEIRA-MAR"
     ],
     itinerary: [],
-    galleryImage: "/galeria-jangada.png"
+    galleryImage: "/galeria-jangada.png",
+    galleryImages: ["/jangada-nova-aerea.jpg", "/jangada-nova-casal.jpg", "/galeria-jangada.png", "/capa-piscinas-naturais.jpg"]
   },
   {
     id: "jangada_gastronomica",

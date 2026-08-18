@@ -140,7 +140,22 @@ export const ExperienceDetail = () => {
               </div>
 
               {/* Galeria Dinâmica */}
-              {experience.galleryImage && (
+              {(experience.galleryImages && experience.galleryImages.length > 0) ? (
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold text-slate-800 mb-4">Galeria de Fotos</h3>
+                  <div className="grid grid-cols-2 gap-3">
+                    {experience.galleryImages.map((img, idx) => (
+                      <div key={idx} className="rounded-xl overflow-hidden shadow-md border-2 border-white bg-slate-100 aspect-square">
+                        <img
+                          src={img}
+                          alt={`Foto ${idx + 1} - ${experience.title}`}
+                          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ) : experience.galleryImage ? (
                 <div className="mb-8">
                   <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-slate-100 flex justify-center p-2">
                     <img 
@@ -150,7 +165,7 @@ export const ExperienceDetail = () => {
                     />
                   </div>
                 </div>
-              )}
+              ) : null}
             </div>
             {/* Right Column (Sidebar) - Desktop: Sticky, Mobile: Bottom fixed */}
             <div className="w-full lg:w-1/3">
