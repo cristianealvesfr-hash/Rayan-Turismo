@@ -45,7 +45,7 @@ export const experiencesData: Experience[] = [
     location: "Rota Ecológica dos Milagres - AL",
     duration: "4 horas",
     price: 300,
-    image: "/passeio-de-jangada-gastronomico.jpg",
+    image: "/gastronomico-capa.jpg",
     tag: "Experiência Premium",
     category: "Gastronomia",
     description: "Uma experiência única em alto-mar que une sabores e paisagens inesquecíveis! Embarque em nossa jangada gastronômica e desfrute de um passeio exclusivo com parada no banco de areia, onde você poderá saborear petiscos regionais, frutos do mar fresquinhos e bebidas enquanto aproveita o visual paradisíaco das águas mornas e cristalinas.",
@@ -58,7 +58,8 @@ export const experiencesData: Experience[] = [
       "AGENDAMENTO: NECESSÁRIO RESERVAR COM ANTECEDÊNCIA"
     ],
     itinerary: [],
-    galleryImage: "/galeria-jangada-gastronomica.png"
+    galleryImage: "/galeria-jangada-gastronomica.png",
+    galleryImages: ["/gastronomico-capa.jpg", "/gastronomico-foto2.jpg", "/galeria-jangada-gastronomica.png", "/passeio-de-jangada-gastronomico.jpg"]
   },
   {
     id: "ensaio_fotografico",
