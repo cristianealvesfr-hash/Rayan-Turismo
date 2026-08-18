@@ -13,6 +13,8 @@ export const ExperienceCard = ({ experience }: { experience: Experience }) => {
         <img 
           src={experience.image} 
           alt={experience.title} 
+          loading="lazy"
+          decoding="async"
           className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
         />
         {experience.tag && (

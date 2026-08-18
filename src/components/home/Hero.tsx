@@ -5,9 +5,9 @@ import { Button } from '../ui/button';
 import { experiencesData } from '../../data/mockData';
 
 const heroImages = [
+  "/jangada-nova-aerea.jpg",
   "/hero2.jpg",
   "/hero3.jpg",
-  "/hero9.jpg",
   "/hero10.jpg"
 ];
 
@@ -19,7 +19,7 @@ export const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
-    }, 2000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -44,8 +44,11 @@ export const Hero = () => {
           <img 
             key={index}
             src={src} 
-            alt={`Hero background ${index + 1}`} 
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${
+            alt={`Hero background ${index + 1}`}
+            fetchPriority={index === 0 ? "high" : "low"}
+            loading={index === 0 ? "eager" : "lazy"}
+            decoding={index === 0 ? "sync" : "async"}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out ${
               index === currentImageIndex ? 'opacity-100' : 'opacity-0'
             }`}
           />
